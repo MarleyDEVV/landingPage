@@ -11,10 +11,6 @@
         flex-wrap: wrap;
     }
 
-    header .title h1{
-        color: black;
-    }
-
     main {
        flex-direction: column;
        margin: auto;
