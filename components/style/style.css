@@ -1,0 +1,188 @@
+
+* {
+    scroll-behavior: smooth;
+    
+}
+
+@media (max-width:400px) {
+
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    header .title h1{
+        color: black;
+    }
+
+    main {
+       flex-direction: column;
+       margin: auto;
+    }
+    body{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body img {
+        display: none;
+    }
+
+    aside {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        margin: auto;
+
+    }
+
+    aside h2 {
+        text-align: center;
+    }
+    aside p {
+       text-align: center;
+       width: 100px;
+       margin: auto;
+       justify-content: center;
+       min-width: 300px;
+    }
+    section p{
+        min-width: 300px;
+        display: flex;
+    }
+ }
+
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    line-height: 10px;
+    font-weight: 200;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+}
+
+a{
+    color: white;
+}
+
+a :hover{
+    color: #006BDB;
+    transition: 0.3s all;
+}
+
+#borda{
+    border: 2px solid #006BDB;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#borda:hover{
+    background-color: #006BDB;
+    color: white;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    
+}
+
+p{
+    line-height: 30px;
+    min-width: 600px;
+    
+}
+
+h3{
+    font-size: 35px;
+}
+
+span{
+    color: #006BDB
+}
+
+#titleCad{
+    color: #006BDB;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #006BDB;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#creditos{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section{
+    background-color: #006BDB;
+    margin-top: 40px;
+    padding: 40px;
+    
+}
+
+#Contato{
+    color: #006BDB;
+    background-color: white;
+}
+
+section a{
+    text-decoration: none;
+    color: #006BDB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
